@@ -1,0 +1,81 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  
+}
+
+.robot-list {
+  margin: auto;
+  max-width: 600px;
+}
+
+
+
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.robots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.robot {
+  margin: 10px;
+}
+
+.robot img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #bfc6a4
+}
+
+.robot img:hover {
+  border-color: #007bff;
+}
+
+input[type="text"] {
+  padding: 8px 25px ;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 25px;
+ width: 300px;
+  margin: 20px;
+  
+  
+}
+
+
+button {
+  
+  height: 25px;
+margin-top: 0px;
+  padding: 0px 18px;
+  background-color: #007bff;
+  color: #000000;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  width: 50;
+}
+
+button:hover {
+  background-color: #ab8259c6;
+  border-color: #0056b3;
+}
+
+header, h1 {
+  margin-top: 10px; 
+  font-weight: bold; 
+  font-size: 35px; 
+  color: #007b;
+  text-align: center; 
+}
